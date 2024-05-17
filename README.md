@@ -1,6 +1,9 @@
 # Next.js Portfolio
 
-Hello there !
+### Live URL
+https://yusuf-altundal.vercel.app/
+
+### Hello there !
 
 This repo contains my portolio website's source codes. 
 
@@ -14,8 +17,6 @@ Hope you like it because I do :smile:
 
 ### Tech Stack
 Next.js, Typescript, Framer-motion, Swiper, Tailwindcss, React-icons ...
-
-### Live URL
 
 ### Base Preview
 ![Screenshot](/public/WebPortfolio.png)
