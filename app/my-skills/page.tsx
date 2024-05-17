@@ -15,12 +15,10 @@ const Page = () => {
                 setSlidesPerView(5);
             } else if (window.innerWidth >= 640) {
                 setSlidesPerView(4);
-            } else if (window.innerWidth >= 480) {
-                setSlidesPerView(3);
             } else if (window.innerWidth >= 320) {
-                setSlidesPerView(2);
+                setSlidesPerView(3);
             } else {
-                setSlidesPerView(1);
+                setSlidesPerView(2);
             }
         };
 
@@ -58,7 +56,7 @@ const Page = () => {
                         disableOnInteraction: false
                     }}
                     speed={5000}
-                    spaceBetween={10}
+                    spaceBetween={20}
                     modules={[Autoplay]}
                     className='max-w-[50%] sm:max-w-[60%] md:max-w-[80%]'
                 >
@@ -85,7 +83,7 @@ const Page = () => {
                         reverseDirection: true
                     }}
                     speed={5000}
-                    spaceBetween={10}
+                    spaceBetween={20}
                     modules={[Autoplay]}
                     className='max-w-[50%] sm:max-w-[60%] md:max-w-[80%]'
                 >
