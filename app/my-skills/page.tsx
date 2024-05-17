@@ -58,7 +58,7 @@ const Page = () => {
                     speed={5000}
                     spaceBetween={20}
                     modules={[Autoplay]}
-                    className='max-w-[50%] sm:max-w-[60%] md:max-w-[80%]'
+                    className='max-w-[60%] sm:max-w-[70%] md:max-w-[80%]'
                 >
                     {SkillData.map((skill, index) => (
                         <SwiperSlide key={index}>
@@ -85,7 +85,7 @@ const Page = () => {
                     speed={5000}
                     spaceBetween={20}
                     modules={[Autoplay]}
-                    className='max-w-[50%] sm:max-w-[60%] md:max-w-[80%]'
+                    className='max-w-[60%] sm:max-w-[70%] md:max-w-[80%]'
                 >
                     {SkillData.map((skill, index) => (
                         <SwiperSlide key={index}>
