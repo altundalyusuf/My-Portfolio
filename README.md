@@ -7,7 +7,7 @@ https://yusuf-altundal.vercel.app/
 
 This repo contains my portolio website's source codes. 
 
-The codes are belongs to https://github.com/Mif2006. 
+The codes are mostly belongs to https://github.com/Mif2006. 
 
 I watched this tutorial and applied it according to my own experiences: https://youtu.be/qwtWcGeIe40?si=G73ozPIOuD1fpZ-W
 
