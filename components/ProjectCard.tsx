@@ -43,10 +43,10 @@ const ProjectCard = ({ image, title, text }: Props) => {
                     style={{ backgroundImage: `url(${image})` }}
                     className='w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4'>
                     <div className='absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]' />
-                    <div className='flex flex-col py-3 z-[30] h-full'>
+                    <div className='flex flex-col py-3 z-[30] h-full overflow-auto'>
                         <h1 className='text-white text-2xl font-semibold'>{title}</h1>
                         <div className='flex-grow' />
-                        <p className='text-gray-200 mt-4 overflow-auto'>
+                        <p className='text-gray-200 mt-4'>
                             {text}
                         </p>
                     </div>
