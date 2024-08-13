@@ -149,6 +149,11 @@ export const Socials = [
 ];
 export const Projects = [
   {
+    title: "BTS-ESG (Implika)",
+    text: "he ESG İmplika project is designed for a law firm, BTS, to assess and improve companies' performance in environmental, social, and governance (ESG) factors with forms and questions. ESG is an increasingly important consideration for investors and stakeholders, as companies' practices in these areas can significantly impact their financial performance.",
+    src: "/BTS-ESG.png",
+  },
+  {
     title: "Koç Dialogue",
     text: "The Koç Dialogue project is a large-scale initiative used by Koç Holding globally to track and manage the development, progress, and objectives (OKRs) of all its employees. The application allows managers to rate, evaluate, and add notes on the development of their subordinates, while employees can conduct similar evaluations and view their assessments.",
     src: "/koc-diyalog.png",
