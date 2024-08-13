@@ -150,7 +150,7 @@ export const Socials = [
 export const Projects = [
   {
     title: "BTS-ESG (Implika)",
-    text: "he ESG İmplika project is designed for a law firm, BTS, to assess and improve companies' performance in environmental, social, and governance (ESG) factors with forms and questions. ESG is an increasingly important consideration for investors and stakeholders, as companies' practices in these areas can significantly impact their financial performance.",
+    text: "The ESG İmplika project is designed for a law firm, BTS, to assess and improve companies' performance in environmental, social, and governance (ESG) factors with forms and questions. ESG is an increasingly important consideration for investors and stakeholders, as companies' practices in these areas can significantly impact their financial performance.",
     src: "/BTS-ESG.png",
   },
   {
