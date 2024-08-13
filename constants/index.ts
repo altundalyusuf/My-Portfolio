@@ -180,6 +180,12 @@ export const Projects = [
     src: "/ntt-commerce.png",
   },
   {
+    title: "T-Talk English",
+    text: "Our graduation project, T-Talk, is a platform developed by me and two friends that helps users learn English using machine learning. By leveraging AI and machine learning to process English words and sentence structures, we utilized frontend technologies to bring this innovative solution to life."
+    `,
+    src: "/T-Talk.png",
+  },
+  {
     title: "Portfolio Creator",
     text: `Learned and utilized various technologies like React, Vite, Firebase, Tailwind, and Daisy UI. Users can build their portfolios and write articles on topics of interest. My first live project, incorporating Firebase storage and Firestore database, along with Google login and email registration features.
     `,
