@@ -19,7 +19,7 @@ export default function Home() {
           <div className='hidden md:block'>
             <p className='text-gray-200 mb-2'>Hello there !</p>
             <p className='text-gray-200'>
-              I'm a <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-400 font-bold'>Computer Engineer & Software Developer</span> fluent in English, specializing in <span className='text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-purple-500 font-bold'>Frontend Development</span> with <span className='font-bold text-blue-400'>React</span>. With diverse experience spanning business analysis, server virtualization, and SAP ABAP development, I bring a unique perspective to my work.
+              I'm a <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-400 font-bold'>Computer Engineer & Software Developer</span> fluent in English, skilled in <span className='text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-purple-500 font-bold'>Frontend Development</span> with <span className='font-bold text-blue-400'>React</span>. With diverse experience spanning, I bring a unique perspective to my work.
             </p>
             <p className='text-gray-200 mt-2'>Let's create something extraordinary together.</p>
           </div>
