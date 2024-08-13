@@ -180,7 +180,7 @@ export const Projects = [
   },
   {
     title: "T-Talk English",
-    text: "Our graduation project, T-Talk, is a platform developed by me and two friends that helps users learn English using machine learning. By leveraging AI and machine learning to process English words and sentence structures, we utilized frontend technologies to bring this innovative solution to life.",
+    text: "Our graduation project, T-Talk, is a platform developed by me and two friends that helps users learn English using machine learning. By leveraging AI and machine learning to process English words and sentence structures, we utilized frontend and backend technologies (MERN Stack) to bring this innovative solution to life.",
     src: "/T-Talk.png",
   },
   {
