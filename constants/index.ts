@@ -150,11 +150,7 @@ export const Socials = [
 export const Projects = [
   {
     title: "Koç Dialogue",
-    text: `
-    With Koç Dialogue, through ongoing one-on-one meetings spread throughout the year, we regularly assess our OKRs, development, and careers.
-    
-    We've established a transparent performance system; allowing everyone to see each other's OKRs in real-time.
-    `,
+    text: "The Koç Dialogue project is a large-scale initiative used by Koç Holding globally to track and manage the development, progress, and objectives (OKRs) of all its employees. The application allows managers to rate, evaluate, and add notes on the development of their subordinates, while employees can conduct similar evaluations and view their assessments.",
     src: "/koc-diyalog.png",
   },
   {
