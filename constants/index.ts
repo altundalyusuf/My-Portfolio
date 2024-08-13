@@ -159,7 +159,12 @@ export const Projects = [
   },
   {
     title: "BSH Cosmos Modernization",
-    text: "Cosmos was an old application that was used by BSH employees. We modernized the application with the latest technologies and made it more user-friendly.",
+    text: `The BSH Cosmos Modernization project involves rewriting an old Visual Basic application using modern technologies. BSH Cosmos is an ERP (Enterprise Resource Planning) system used to manage various business processes and operations within the company. It aims to increase efficiency and facilitate information flow by integrating different departments such as supply chain, production, finance, human resources, sales, and customer service.
+Team: Collaborated with a team of 30 members.
+Methodology: Agile & Scrum.
+Technologies: React, TypeScript, Material UI, Tailwind CSS, Redux Toolkit, DevExtreme, Webpack, Jira, Git, ESLint, Prettier, i18next, Figma, Swagger, Postman.
+Responsibilities: Engaged in pair programming with both frontend and backend teams. Involved in API integration, code cleanup and optimization, feature development, and bug fixing.
+`,
     src: "/bsh-cosmos.png",
   },
   {
