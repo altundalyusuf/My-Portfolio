@@ -165,14 +165,12 @@ export const Projects = [
   },
   {
     title: "Flight Search Application",
-    text: `Searching flights app where users can find flights by selecting airports and dates, with validation for all inputs. Additionally, a listing feature allowing sorting of flights by various criteria and displaying detailed flight information. Error handling and mock data usage were also implemented. The project was built with React and managed on GitHub with Git.
-    `,
+    text: "Searching flights app where users can find flights by selecting airports and dates, with validation for all inputs. Additionally, a listing feature allowing sorting of flights by various criteria and displaying detailed flight information. Error handling and mock data usage were also implemented. The project was built with React and managed on GitHub with Git.",
     src: "/flight-search.png",
   },
   {
     title: "E-commerce Simulation",
-    text: "Responsive shopping site using Material UI and Redux Toolkit, featuring search, category selection, and product favorites. Users can switch between viewing all products and favorites, with adjustable display options. Completed within five days as part of a test case, I learned and implemented everything from scratch.
-    ",
+    text: "Responsive shopping site using Material UI and Redux Toolkit, featuring search, category selection, and product favorites. Users can switch between viewing all products and favorites, with adjustable display options. Completed within five days as part of a test case, I learned and implemented everything from scratch.",
     src: "/ntt-commerce.png",
   },
   {
@@ -182,27 +180,22 @@ export const Projects = [
   },
   {
     title: "Portfolio Creator",
-    text: "Learned and utilized various technologies like React, Vite, Firebase, Tailwind, and Daisy UI. Users can build their portfolios and write articles on topics of interest. My first live project, incorporating Firebase storage and Firestore database, along with Google login and email registration features.
-    ",
+    text: "Learned and utilized various technologies like React, Vite, Firebase, Tailwind, and Daisy UI. Users can build their portfolios and write articles on topics of interest. My first live project, incorporating Firebase storage and Firestore database, along with Google login and email registration features.",
     src: "/portfolio-creator.png",
   },
   {
     title: "MERN Stack Kitchen - Order",
-    text: `Ordering system with the MERN Stack. I gained insights into React state management, page redirection with react-router-dom, and design tools like MDBootstrap. Additionally, I used Backend technologies such as Node.js, Express.js, MongoDB, and Mongoose for database operations. 
-    `,
+    text: "Ordering system with the MERN Stack. I gained insights into React state management, page redirection with react-router-dom, and design tools like MDBootstrap. Additionally, I used Backend technologies such as Node.js, Express.js, MongoDB, and Mongoose for database operations.",
     src: "/kitchen-order.png",
   },
   {
     title: "Active Directory Migration Windows Server 2016 to Windows 2019",
-    text: `Me and my teammate successfully upgraded Active Directory 2016 to Active Directory 2019 without any data, user, or policy loss. Initially attempting an in-place upgrade, we encountered errors and opted for a migration method after thorough research. Before proceeding, we ensured Active Directory 2016's health, FSMO roles, and DNS were intact. Following the migration, we meticulously verified data integrity and system health. Our project passed the review of our superior, affirming the success of the upgrade. 
-    `,
+    text: "Me and my teammate successfully upgraded Active Directory 2016 to Active Directory 2019 without any data, user, or policy loss. Initially attempting an in-place upgrade, we encountered errors and opted for a migration method after thorough research. Before proceeding, we ensured Active Directory 2016's health, FSMO roles, and DNS were intact. Following the migration, we meticulously verified data integrity and system health. Our project passed the review of our superior, affirming the success of the upgrade.",
     src: "/servers.jpg",
   },
   {
     title: "Health Insurance Mobile App",
-    text: `
-    As the Business Analyst in a three-person team, I learned about project processes, agile-scrum methodology, and effective communication. My role involved understanding problems, preparing reports, and communicating project requirements. Using Jira and Slack, I ensured continuous collaboration to keep the project moving forward.
-    `,
+    text: "As the Business Analyst in a three-person team, I learned about project processes, agile-scrum methodology, and effective communication. My role involved understanding problems, preparing reports, and communicating project requirements. Using Jira and Slack, I ensured continuous collaboration to keep the project moving forward.",
     src: "/Business-Analyst.jpg",
   },
 ];
