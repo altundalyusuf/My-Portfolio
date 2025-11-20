@@ -1,61 +1,57 @@
-# Next.js Portfolio
+# 👨‍💻 Yusuf Altundal - Professional Portfolio
 
-### Live URL
-https://yusuf-altundal.vercel.app/
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-### Hello there !
+> A high-performance, fully responsive personal portfolio website built to showcase my projects and technical skills.
 
-This repo contains my portolio website's source codes. 
-
-The codes are mostly belongs to https://github.com/Mif2006. 
-
-I watched this tutorial and applied it according to my own experiences: https://youtu.be/qwtWcGeIe40?si=G73ozPIOuD1fpZ-W
-
-Additionaly I converted this project to a responsive version. Although owner of the code says it is responsive in the video, it was not. So I converted it myself.
-
-Hope you like it because I do :smile:
-
-### Tech Stack
-Next.js, Typescript, Framer-motion, Swiper, Tailwindcss, React-icons ...
-
-### Base Preview
-![Screenshot](/public/WebPortfolio.png)
+## 🔗 Live URL
+🚀 **View Portfolio:** [yusuf-altundal.vercel.app](https://yusuf-altundal.vercel.app/)
 
 ---
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📖 Overview
+This project represents my digital identity as a Frontend Developer. It is built with **Next.js 13+** (App Router) and **TypeScript** to ensure type safety and SEO optimization. The UI leverages **Framer Motion** for smooth animations and **Tailwind CSS** for rapid styling.
 
-## Getting Started
+## 🛠️ Technical Enhancements & Features
+While the initial visual design was inspired by [Mif2006](https://github.com/Mif2006), I have significantly refactored and enhanced the codebase to meet modern web standards:
 
-First, run the development server:
+* 📱 **Mobile-First Responsiveness:** The original design lacked proper mobile support. I completely rewrote the layout logic to ensure a seamless experience across all devices (Mobile, Tablet, Desktop).
+* 🛡️ **Type Safety:** Converted the codebase to **TypeScript** for better maintainability and error handling.
+* ⚡ **Performance:** Optimized images and assets using Next.js components for faster load times.
+* ✨ **Animations:** Integrated advanced **Framer Motion** variants for engaging scroll animations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💻 Tech Stack
+* **Framework:** Next.js
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Animation:** Framer Motion
+* **Sliders:** Swiper.js
+* **Icons:** React Icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/altundalyusuf/portfolio-nextjs.git](https://github.com/altundalyusuf/portfolio-nextjs.git)
+    ```
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 👨‍💻 Author
+**Yusuf Altundal**
+* **LinkedIn:** [@yusufaltundal](https://www.linkedin.com/in/yusufaltundal)
+* **GitHub:** [@altundalyusuf](https://github.com/altundalyusuf)
