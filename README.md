@@ -34,9 +34,6 @@ While the initial visual design was inspired by [Mif2006](https://github.com/Mif
 ## 🚀 Running Locally
 
 1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/altundalyusuf/portfolio-nextjs.git](https://github.com/altundalyusuf/portfolio-nextjs.git)
-    ```
 2.  **Install dependencies**
     ```bash
     npm install
