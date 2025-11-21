@@ -8,60 +8,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "JavaScript",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Bootstrap",
-    Image: "/bootstrap.svg",
-    width: 70,
-    height: 70,
-  },
-  {
-    name: "Material UI",
-    Image: "/material-ui.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Less CSS",
-    Image: "/lessCss.png",
-    width: 100,
-    height: 100,
-  },
-  {
-    name: "Figma",
-    Image: "/figma.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "TypeScript",
     Image: "/ts.png",
     width: 80,
@@ -72,6 +18,48 @@ export const SkillData = [
     Image: "/next.png",
     width: 80,
     height: 80,
+  },
+  {
+    name: "Redux",
+    Image: "/redux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "React Native",
+    Image: "/react-native.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Jest",
+    Image: "/jest.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    name: "React Testing Library",
+    Image: "/RTL.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Material UI",
+    Image: "/material-ui.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "JavaScript",
+    Image: "/js.png",
+    width: 65,
+    height: 65,
   },
   {
     name: "Node js",
@@ -92,16 +80,10 @@ export const SkillData = [
     height: 150,
   },
   {
-    name: "Jest",
-    Image: "/jest.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    name: "React Testing Library",
-    Image: "/RTL.png",
-    width: 65,
-    height: 65,
+    name: "Vite",
+    Image: "/vite.png",
+    width: 80,
+    height: 80,
   },
   {
     name: "Git",
@@ -110,28 +92,22 @@ export const SkillData = [
     height: 100,
   },
   {
-    name: "Github Desktop",
-    Image: "/github-desktop.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Vite",
-    Image: "/vite.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "VS Code",
-    Image: "/vscode.png",
-    width: 70,
-    height: 70,
-  },
-  {
     name: "Jira",
     Image: "/jira.png",
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
+  },
+  {
+    name: "Azure DevOps",
+    Image: "/azureDevops.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Expo",
+    Image: "/expo.png",
+    width: 80,
+    height: 80,
   },
 ];
 
@@ -139,69 +115,72 @@ export const Socials = [
   {
     name: "LinkedIn",
     src: "/linkedin.svg",
-    url: 'https://www.linkedin.com/in/yusufaltundal/'
+    url: "https://www.linkedin.com/in/yusufaltundal/",
   },
   {
     name: "Github",
     src: "/github.svg",
-    url: 'https://github.com/altundalyusuf'
+    url: "https://github.com/altundalyusuf",
   },
 ];
-export const Projects = [
-  {
-    title: "BTS-ESG (Implika)",
-    text: "The ESG İmplika project is designed for a law firm, BTS, to assess and improve companies' performance in environmental, social, and governance (ESG) factors with forms and questions. ESG is an increasingly important consideration for investors and stakeholders, as companies' practices in these areas can significantly impact their financial performance.",
-    src: "/BTS-ESG.png",
-  },
+export const ProfessionalProjects = [
   {
     title: "Koç Dialogue",
-    text: "The Koç Dialogue project is a large-scale initiative used by Koç Holding globally to track and manage the development, progress, and objectives (OKRs) of all its employees. The application allows managers to rate, evaluate, and add notes on the development of their subordinates, while employees can conduct similar evaluations and view their assessments.",
+    text: "High-Traffic Enterprise Application Contributed to Koç Holding's global OKR and performance management system, serving a massive user base. 10,000+ Active Users: Optimized the application to handle high concurrent user loads. 30% Performance Boost: Refactored legacy code and optimized rendering cycles (re-renders), resulting in a 30% improvement in UI response times. Optimization: Used SonarQube analysis to identify bottlenecks and improve code security/quality.",
     src: "/koc-diyalog.png",
   },
   {
-    title: "BSH Cosmos Modernization",
-    text: "The BSH Cosmos Modernization project involves rewriting an old Visual Basic application using modern technologies. BSH Cosmos is an ERP (Enterprise Resource Planning) system used to manage various business processes and operations within the company. It aims to increase efficiency and facilitate information flow by integrating different departments such as supply chain, production, finance, human resources, sales, and customer service.",
+    title: "BSH - Cosmos Modernization",
+    text: "Legacy Migration & Modernization Transformed a legacy Visual Basic ERP application into a modern, responsive web application. Rewrote complex business logic into modern React & TypeScript hooks. Collaborated with backend teams to replace legacy data flows with modern RESTful API consumption. Upgraded the user interface using Material UI and Tailwind CSS for a modern experience.",
     src: "/bsh-cosmos.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "By watching and applying WebChain Dev youtube channel's video, I created a multi page Next js 14 app using typescript, framer motion and tailwind CSS. This app features a responsive design, an animation on routing, and other cool animations.",
-    src: "/WebPortfolio.png",
+    title: "BSH - Clicq (Personnel Evaluation System)",
+    text: "Efficiency & Component Architecture Developed a dynamic evaluation platform for BSH managers, focusing on modularity and code reusability. Reduced Development Time by 25%: Designed and implemented a Reusable Component Library and 'Lazy Loading' architecture, significantly speeding up the delivery of new features. Utilized Redux Toolkit for complex global state flows across evaluation forms. Implemented i18next for multi-language support (Global Standard). Enforced strict code quality standards using ESLint, Prettier, and Swagger for API consistency.",
+    src: "/clicq.jpg",
+  },
+  {
+    title: "Alba - Aluminium Customer & Order Management System",
+    text: "Global Scale Project (Bahrain) Architected and developed the entire frontend of a mission-critical ERP system for one of the world's largest aluminium smelters. Built a scalable Single Page Application (SPA) from scratch using React, TypeScript, and Vite. Implemented advanced modules for Order Tracking, Billing/Invoicing, and Debit/Credit Note management. Achieved high-performance rendering for large datasets using optimized React hooks and efficient state management. Integrated Role-Based Access Control (RBAC) and secure RESTful APIs.",
+    src: "/alba.jpg",
+  },
+  {
+    title: "BTS-ESG (Implika)",
+    text: "Designed to assess and improve companies' performance in environmental, social, and governance (ESG) factors with forms and questions. ESG is an increasingly important consideration for investors and stakeholders, as companies' practices in these areas can significantly impact their financial performance. Collaborated with a multidisciplinary team of 30, including Process Engineers, Backend and Frontend Developers, Project Managers, and Product Owners. Played a key role in feature development, API integration, code cleanup and optimization, and system optimization.",
+    src: "/BTS-ESG.png",
+  },
+  {
+    title: "BTS - TF (Talent Finance)",
+    text: "Loan calculation application. Collaborated with a team of 10, including Process Engineers, Backend and Frontend Developers, Project Managers. Played a key role in feature development, API integration, code cleanup and optimization, and system optimization. Technologies: React, TypeScript, Material UI, Tailwind CSS, Redux Toolkit, Webpack, Jira, Git, ESLint, Prettier, React Hook Form, Figma, Swagger.",
+    src: "/talentFinance.jpg",
+  },
+];
+
+export const PersonalProjects = [
+  {
+    title: "Meeting Room Order System (MERN Stack)",
+    text: "A full-stack internal web application designed to streamline hospitality services within corporate meeting rooms. Developed as an internship project to digitize manual ordering processes. This application solves a logistical problem in corporate environments: ordering refreshments from meeting rooms without interrupting the workflow. It connects meeting attendees directly with the kitchen staff through a dual-interface system. The system allows users in meeting rooms to place orders, while the kitchen staff views and manages these incoming orders in real-time through an auto-refreshing dashboard.",
+    src: "/kitchen-order.png",
+  },
+  {
+    title: "T-Talk English",
+    text: "'Learn English through the lens of Social Media.' T-Talk (Trend-Talk) is a full-stack web application designed to help users learn trending English vocabulary used in daily social media conversations. Traditional language learning tools often miss the dynamic nature of internet slang and trending topics. T-Talk bridges this gap by curating popular English words from social media platforms and presenting them in a gamified learning environment. This project served as my University Capstone Project.",
+    src: "/T-Talk.png",
+  },
+  {
+    title: "Portfolio Creator",
+    text: "A dynamic web application that empowers users to create, manage, and share their personal portfolios without writing a single line of code. This project was developed as a Capstone Project for a bootcamp. The goal was to create a scalable CMS (Content Management System) where users can register and dynamically build their resume websites. Unlike static portfolios, this application offers a full CRUD experience, allowing users to add their education, experience, skills, and even share blog-style posts with images. Integrated Firebase Authentication supporting both Email/Password and Google Sign-In.",
+    src: "/portfolio-creator.png",
+  },
+  {
+    title: "E-commerce Simulation",
+    text: "Responsive e-commerce application using Material UI and Redux Toolkit, featuring search, category selection, and product favorites. Users can switch between viewing all products and favorites, with adjustable display options. You can access to a live demo via my GitHub.",
+    src: "/ntt-commerce.png",
   },
   {
     title: "Flight Search Application",
     text: "Searching flights app where users can find flights by selecting airports and dates, with validation for all inputs. Additionally, a listing feature allowing sorting of flights by various criteria and displaying detailed flight information. Error handling and mock data usage were also implemented. The project was built with React and managed on GitHub with Git.",
     src: "/flight-search.png",
-  },
-  {
-    title: "E-commerce Simulation",
-    text: "Responsive shopping site using Material UI and Redux Toolkit, featuring search, category selection, and product favorites. Users can switch between viewing all products and favorites, with adjustable display options. Completed within five days as part of a test case, I learned and implemented everything from scratch.",
-    src: "/ntt-commerce.png",
-  },
-  {
-    title: "T-Talk English",
-    text: "Our graduation project, T-Talk, is a platform developed by me and two friends that helps users learn English using machine learning. By leveraging AI and machine learning to process English words and sentence structures, we utilized frontend and backend technologies (MERN Stack) to bring this innovative solution to life.",
-    src: "/T-Talk.png",
-  },
-  {
-    title: "Portfolio Creator",
-    text: "Learned and utilized various technologies like React, Vite, Firebase, Tailwind, and Daisy UI. Users can build their portfolios and write articles on topics of interest. My first live project, incorporating Firebase storage and Firestore database, along with Google login and email registration features.",
-    src: "/portfolio-creator.png",
-  },
-  {
-    title: "MERN Stack Kitchen - Order",
-    text: "Ordering system with the MERN Stack. I gained insights into React state management, page redirection with react-router-dom, and design tools like MDBootstrap. Additionally, I used Backend technologies such as Node.js, Express.js, MongoDB, and Mongoose for database operations.",
-    src: "/kitchen-order.png",
-  },
-  {
-    title: "Active Directory Migration Windows Server 2016 to Windows 2019",
-    text: "Me and my teammate successfully upgraded Active Directory 2016 to Active Directory 2019 without any data, user, or policy loss. Initially attempting an in-place upgrade, we encountered errors and opted for a migration method after thorough research. Before proceeding, we ensured Active Directory 2016's health, FSMO roles, and DNS were intact. Following the migration, we meticulously verified data integrity and system health. Our project passed the review of our superior, affirming the success of the upgrade.",
-    src: "/servers.jpg",
-  },
-  {
-    title: "Health Insurance Mobile App",
-    text: "As the Business Analyst in a three-person team, I learned about project processes, agile-scrum methodology, and effective communication. My role involved understanding problems, preparing reports, and communicating project requirements. Using Jira and Slack, I ensured continuous collaboration to keep the project moving forward.",
-    src: "/Business-Analyst.jpg",
   },
 ];
 

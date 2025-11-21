@@ -1,108 +1,79 @@
-"use client"
-import React, { useEffect, useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import { SkillData } from '@/constants'
-import Image from 'next/image'
-import { Autoplay } from 'swiper/modules'
+"use client";
+import React from "react";
+import "swiper/css";
+import { SkillData } from "@/constants";
+import Image from "next/image";
+
+const ProficientSkills = SkillData.filter((skill) => {
+  const name = skill.name.toLowerCase();
+  return !["react native", "expo", "jest", "react testing library"].includes(
+    name
+  );
+});
+
+const LearningSkills = SkillData.filter((skill) => {
+  const name = skill.name.toLowerCase();
+  return ["react native", "expo", "jest", "react testing library"].includes(
+    name
+  );
+});
 
 const Page = () => {
-    const [slidesPerView, setSlidesPerView] = useState(1);
+  return (
+    <div
+      style={{ backgroundImage: `url('/bg-2.jpg')` }}
+      className="min-h-screen w-screen flex flex-col items-center justify-center py-20 bg-cover bg-center"
+    >
+      <div className="flex flex-col gap-10 max-w-[90%] w-full text-center items-center">
+        <h1 className="font-semibold text-white text-[35px] md:text-[50px]">
+          Technical Skills
+        </h1>
 
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth >= 768) {
-                setSlidesPerView(5);
-            } else if (window.innerWidth >= 640) {
-                setSlidesPerView(4);
-            } else if (window.innerWidth >= 320) {
-                setSlidesPerView(3);
-            } else {
-                setSlidesPerView(2);
-            }
-        };
-
-        handleResize(); // Call the function once to set the initial state
-        window.addEventListener('resize', handleResize); // Update state whenever the window size changes
-
-        // Clean up the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []); // Empty dependency array means this effect runs once on mount and clean up on unmount
-
-    return (
-        <div
-            style={{ backgroundImage: `url('/bg-2.jpg')` }}
-            className='h-screen w-screen flex items-center justify-center bg-cover bg-center'>
-            <div className='flex flex-col gap-14 md:gap-20 max-w-[80%] max-h-[70%]  text-center items-center'>
-                <div className='flex flex-col items-center gap-4'>
-                    <h1 className='font-semibold text-white text-[35px] md:text-[50px]'>Skills
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500'>{" "}
-                            &
-                            {" "}
-                        </span>
-                        Technologies
-                    </h1>
-                    <p className='text-gray-400 text-[15px] md:text-[20px]'>
-                        Using the latest tech this world has to offer
-                    </p>
+        <div className="flex flex-col w-full items-center gap-6">
+          <h2 className="text-purple-400 text-3xl font-bold">Proficient</h2>
+          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-x-4 gap-y-8 px-4 w-full justify-items-center">
+            {ProficientSkills.map((skill, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center relative">
+                  <Image
+                    src={skill.Image}
+                    alt={skill.name}
+                    fill
+                    className="object-contain"
+                  />
                 </div>
-                <Swiper
-                    slidesPerView={slidesPerView}
-                    loop={true}
-                    autoplay={{
-                        delay: 0,
-                        disableOnInteraction: false
-                    }}
-                    speed={5000}
-                    spaceBetween={20}
-                    modules={[Autoplay]}
-                    className='max-w-[60%] sm:max-w-[70%] md:max-w-[80%]'
-                >
-                    {SkillData.map((skill, index) => (
-                        <SwiperSlide key={index}>
-                            <div className='flex items-center justify-center'>
-                                <Image
-                                    src={skill.Image}
-                                    alt={skill.name}
-                                    width={skill.width}
-                                    height={skill.height}
-                                />
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                <p className="text-gray-200 mt-2 text-sm">{skill.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
-                <Swiper
-                    slidesPerView={slidesPerView}
-                    loop={true}
-                    autoplay={{
-                        delay: 0,
-                        disableOnInteraction: false,
-                        reverseDirection: true
-                    }}
-                    speed={5000}
-                    spaceBetween={20}
-                    modules={[Autoplay]}
-                    className='max-w-[60%] sm:max-w-[70%] md:max-w-[80%]'
-                >
-                    {SkillData.map((skill, index) => (
-                        <SwiperSlide key={index}>
-                            <div className='flex items-center justify-center'>
-                                <Image
-                                    src={skill.Image}
-                                    alt={skill.name}
-                                    width={skill.width}
-                                    height={skill.height}
-                                />
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-            </div>
-        </div >
-    )
-}
+        <div className="flex flex-col w-full items-center gap-6 mt-8">
+          <h2 className="text-red-400 text-3xl font-bold">Current Focus</h2>
+          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-x-4 gap-y-8 px-4 w-full">
+            {LearningSkills.map((skill, index) => (
+              <div
+                key={index}
+                className={`flex flex-col items-center opacity-70 ${
+                  index === 0 ? "col-start-3" : ""
+                }`}
+              >
+                <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center relative">
+                  <Image
+                    src={skill.Image}
+                    alt={skill.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <p className="text-gray-400 mt-2 text-sm">{skill.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Page
+export default Page;
