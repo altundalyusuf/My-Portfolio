@@ -6,26 +6,30 @@
 
 > My personal portfolio website showcasing my projects and technical skills. Built with Next.js and TypeScript.
 
-## 🔗 Live Demo
+## 🔗 Live App
+
 🚀 **View Site:** [yusuf-altundal.vercel.app](https://yusuf-altundal.vercel.app/)
 
 ---
 
 ## 📖 Project Context
+
 This project serves as my digital resume. It was developed to practice **Next.js (App Router)** and **TypeScript** fundamentals while building a functional portfolio.
 
 ### 💡 Credits & Adaptation
+
 The visual design and core structure were based on a tutorial by [Mif2006](https://github.com/Mif2006). I followed the implementation guide to understand the best practices of Framer Motion and Swiper.js integration.
 
 **My Key Contribution:**
 While the original design served as a baseline, I identified responsiveness issues on smaller screens. **I manually refactored the CSS/Tailwind classes to ensure the site is fully responsive and mobile-friendly**, optimizing the layout for all devices.
 
 ## 🛠️ Tech Stack
-* **Framework:** Next.js 13+
-* **Language:** TypeScript
-* **Styling:** Tailwind CSS
-* **Animations:** Framer Motion
-* **Deployment:** Vercel
+
+- **Framework:** Next.js 13+
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Deployment:** Vercel
 
 ## 🚀 Running Locally
 
@@ -42,6 +46,8 @@ While the original design served as a baseline, I identified responsiveness issu
 ---
 
 ## 👨‍💻 Author
+
 **Yusuf Altundal**
-* **LinkedIn:** [@yusufaltundal](https://www.linkedin.com/in/yusufaltundal)
-* **GitHub:** [@altundalyusuf](https://github.com/altundalyusuf)
+
+- **LinkedIn:** [@yusufaltundal](https://www.linkedin.com/in/yusufaltundal)
+- **GitHub:** [@altundalyusuf](https://github.com/altundalyusuf)
