@@ -12,7 +12,7 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-5 pr-3 sm:pl-20 lg:pl-24 xl:pl-40 pb-56 md:pb-20 flex flex-col items-center md:items-start gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[37px] md:text-[50px] text-white font-semibold text-center md:text-left">
+          <h1 className="text-[30px] md:text-[40px] text-white font-semibold text-center md:text-left">
             Frontend Developer | Ex-NTT Data |
             <br className="md:hidden" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
@@ -33,8 +33,8 @@ export default function Home() {
                 React.js and TypeScript
               </span>
               . I am passionate about creating impactful, performant, and
-              user-centric frontend solutions. Let's connect and build something
-              extraordinary!
+              user-centric frontend and mobile solutions. Let's connect and
+              build something extraordinary!
             </p>
           </div>
           <div className="flex-col md:flex-row hidden md:flex gap-5">

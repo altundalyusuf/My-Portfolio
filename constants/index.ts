@@ -32,6 +32,12 @@ export const SkillData = [
     height: 80,
   },
   {
+    name: "Expo",
+    Image: "/expo.png",
+    width: 80,
+    height: 80,
+  },
+  {
     name: "Jest",
     Image: "/jest.png",
     width: 65,
@@ -100,12 +106,6 @@ export const SkillData = [
   {
     name: "Azure DevOps",
     Image: "/azureDevops.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Expo",
-    Image: "/expo.png",
     width: 80,
     height: 80,
   },
