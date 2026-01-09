@@ -6,16 +6,12 @@ import Image from "next/image";
 
 const ProficientSkills = SkillData.filter((skill) => {
   const name = skill.name.toLowerCase();
-  return !["react native", "expo", "jest", "react testing library"].includes(
-    name
-  );
+  return !["jest", "react testing library"].includes(name);
 });
 
 const LearningSkills = SkillData.filter((skill) => {
   const name = skill.name.toLowerCase();
-  return ["react native", "expo", "jest", "react testing library"].includes(
-    name
-  );
+  return ["jest", "react testing library"].includes(name);
 });
 
 const Page = () => {
@@ -50,7 +46,7 @@ const Page = () => {
         </div>
 
         <div className="flex flex-col w-full items-center gap-6 mb-8">
-          <h2 className="text-red-400 text-3xl font-bold">Current Focus</h2>
+          <h2 className="text-red-400 text-3xl font-bold">Basic Knowledge</h2>
 
           <div className="flex flex-wrap justify-center gap-8 lg:gap-16 px-4 w-full">
             {LearningSkills.map((skill, index) => (

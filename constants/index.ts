@@ -158,6 +158,11 @@ export const ProfessionalProjects = [
 
 export const PersonalProjects = [
   {
+    title: "Mobile Crypto Tracking App",
+    text: "A professional SaaS-style cryptocurrency dashboard built with React Native (Expo) and Supabase. This project demonstrates robust architecture, secure authentication, and real-time data visualization. Features include user authentication, favorite coin management, real-time price tracking, and interactive charts, filtering and searching. The app fetches live cryptocurrency data from a public API and displays it using dynamic charts and graphs. Users can create accounts, log in securely, and manage their crypto portfolios with real-time updates. The app is designed with a clean, user-friendly interface and optimized for performance on both iOS and Android devices.",
+    src: "/crypto-tracking.jpeg",
+  },
+  {
     title: "Meeting Room Order System (MERN Stack)",
     text: "A full-stack internal web application designed to streamline hospitality services within corporate meeting rooms. Developed as an internship project to digitize manual ordering processes. This application solves a logistical problem in corporate environments: ordering refreshments from meeting rooms without interrupting the workflow. It connects meeting attendees directly with the kitchen staff through a dual-interface system. The system allows users in meeting rooms to place orders, while the kitchen staff views and manages these incoming orders in real-time through an auto-refreshing dashboard.",
     src: "/kitchen-order.png",
